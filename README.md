@@ -54,4 +54,32 @@ Uma conta pode ter uma ou mais assinaturas; essas assinaturas podem possuir dife
 ![image](https://user-images.githubusercontent.com/110680526/194135305-7191ba42-4158-4ce6-8472-af4332eb18f9.png)
 
 ### **Regiões:**
-A Microsoft está espalhada em vários lugares do mundo. Para cada região, existe um par de regiões que é feito para replicar os dados (esses pares ficam no mínimo 300 milhas de distância).
+A Microsoft está espalhada em vários lugares do mundo. Para cada região, existe um par de regiões que é feito para replicar os dados (esses pares ficam no mínimo 300 milhas de distância). Região é uma área do planeta que contém pelo menos um data center (normalmente são vários) e conectados em rede com uma baixa latência. O Azure tem mais regiões globais do que qualquer outro provedor de nuvem. 
+- **Regiões especiais do Azure:** Us DoD Central, US Gov Virginia, US Gov lowa e outras: são regiões físicas e lógicas isoladas de rede pertencentes ao Azure para agências e parceiros do governo dos Estados Unidos utilizarem. Esses data centers são acessados e operadores por pessoas selecionadas dos Estados Unidos.
+- Conexão com a China: O governo chinês é um governo fechado em relação a empresas de fora que vão monitorar dados de lá. Como alternativa a isso, o intermédio entre a China e a Azure é realizado pela empresa 21Vianet que tem parceria com a Microsoft. 
+
+### **Zonas de disponibilidade**
+São data centers fisicamente separados na mesma região. Esses data centers, embora estejam na mesma região, possuem equipamentos de alimentação elétrica, refrigeração e rede exclusivos de cada um. 
+No Azure existem dois serviços que oferecem suporte a zonas de disponibilidade: Serviços zonais e serviços com redundância de zona.
+- **Serviços zonais:** Nesse serviço você escolhe somente uma zona específica para colocar seu recurso.
+- **Serviços com redundância de zona:** Nesse serviço a plataforma replica automaticamente os recursos entre as zonas.
+
+![image](https://user-images.githubusercontent.com/110680526/194145147-ee909f86-6956-46b0-8136-cac7752611df.png)
+
+### **Recursos do Azure:**
+O Azure oferece diversos recursos dentro da sua plataforma, entre eles: Criação de máquinas virtuais, banco de dados, armazenamento, entre outros.
+### **Grupo de recursos:**
+O grupo de recursos reúne os recursos e agrupam aqueles que estão conectados. Por meio do grupo de recursos é possível definir configurações em comum entre os recursos presentes nele.
+### **Azure Resource Manager:**
+Gerencia como os seus recursos serão alocados e criados. As solicitações para criar ou atualizar um recurso são feitas por meio desse recurso.
+
+![image](https://user-images.githubusercontent.com/110680526/194149632-bbbf0354-63b1-4f5e-ac9f-e548a7a1660b.png)
+
+### **Grupos de gerenciamento:** 
+O grupo de gerenciamento permite que você gerencie assinaturas, permitindo inclusive atribuir permissõoes para os recursos.
+
+Na imagem abaixo as chaves são as assinaturas e os demais símbolos os grupos. É possível notar que as assinaturas e grupos são divididos pelos departamentos da empresa que provavelmente possuem permissões diferentes.
+
+![image](https://user-images.githubusercontent.com/110680526/194150428-35df02bc-7ef6-4c47-b042-5d160197beec.png)
+
+
