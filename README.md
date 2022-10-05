@@ -40,3 +40,18 @@ Na nuvem os usuários pagam pelos recursos que utilizam. Os modelos de núvem p�
 - **IaaS:** Nesse modelo o usuário fica responsável pelas atualizações e instalações, o usuário gerencia o hardware para o seu aplicativo. Lembrando que, embora as atualizações e instalações fiquem como responsabilidade do usuário, toda a parte física de instalação e manutenção é realizada pelo provedor da nuvem.
 - **PaaS:** No PaaS o nível de gerenciamento da máquina é menor pela parte do usuario. Nesse modelo o usuário somente gerencia as aplicações presentes no servidor.
 - **SaaS:** Nesse modelo temos os softwares prontos que entregam um serviço, o usuário para com base no uso; como exemplos de SaaS temos Netflix, Spotify, HBO, etc. São softwares que você acessa pela Internet e já estão prontos para o uso.
+
+## Módulo 2: Principais serviços do Azure ##
+### **O que é o Azure?**
+"Azure é um conjunto de serviços de nuvem em constante expansão, que ajuda a sua organização a superar os desafios empresariais e atuais e se preparar para os desafios futuros. No portal do Azure é possível acessar e utilizar as suas ferramentas; é possível compilar, gerenciar e monitorar tudo."
+
+![image](https://user-images.githubusercontent.com/110680526/194134675-2eb508d3-5f88-49aa-8cf2-e5d0bf6d5795.png)
+
+### **Assinatura do Azure:**
+Para começar a utilizar o serviço do Azure é necessário possuir uma assinatura. Uma assinatura é uma unidade lógica de serviços do Azure vinculada a uma conta.
+Uma conta pode ter uma ou mais assinaturas; essas assinaturas podem possuir diferentes níveis de gerenciamento de acesso. Geralmente são feitas assinaturas diferentes para ambientes diferentes como departamentos, equipes, etc.
+
+![image](https://user-images.githubusercontent.com/110680526/194135305-7191ba42-4158-4ce6-8472-af4332eb18f9.png)
+
+### **Regiões:**
+A Microsoft está espalhada em vários lugares do mundo. Para cada região, existe um par de regiões que é feito para replicar os dados (esses pares ficam no mínimo 300 milhas de distância).
