@@ -56,7 +56,7 @@ Uma conta pode ter uma ou mais assinaturas; essas assinaturas podem possuir dife
 ### **Regiões:**
 A Microsoft está espalhada em vários lugares do mundo. Para cada região, existe um par de regiões que é feito para replicar os dados (esses pares ficam no mínimo 300 milhas de distância). Região é uma área do planeta que contém pelo menos um data center (normalmente são vários) e conectados em rede com uma baixa latência. O Azure tem mais regiões globais do que qualquer outro provedor de nuvem. 
 - **Regiões especiais do Azure:** Us DoD Central, US Gov Virginia, US Gov lowa e outras: são regiões físicas e lógicas isoladas de rede pertencentes ao Azure para agências e parceiros do governo dos Estados Unidos utilizarem. Esses data centers são acessados e operadores por pessoas selecionadas dos Estados Unidos.
-- Conexão com a China: O governo chinês é um governo fechado em relação a empresas de fora que vão monitorar dados de lá. Como alternativa a isso, o intermédio entre a China e a Azure é realizado pela empresa 21Vianet que tem parceria com a Microsoft. 
+- **Conexão com a China:** O governo chinês é um governo fechado em relação a empresas de fora que vão monitorar dados de lá. Como alternativa a isso, o intermédio entre a China e a Azure é realizado pela empresa 21Vianet que tem parceria com a Microsoft. 
 
 ### **Zonas de disponibilidade**
 São data centers fisicamente separados na mesma região. Esses data centers, embora estejam na mesma região, possuem equipamentos de alimentação elétrica, refrigeração e rede exclusivos de cada um. 
@@ -109,8 +109,38 @@ A plataforma garante: serviço altamente escalonável e disponível, baixa latê
 
 O serviço de armazenamento do Azure é uma solução de nuvem para armazenar dados modernos. Os dados salvos podem ser acessar por HTTP.
 O armazenamento de dados possui as camadas: Hot, Cool e Archive. 
-- Hot: Armazenamento que os dados são acessados com frequência.
-- Cool: Dados acessados com pouca frequência por pelo menos 30 dias.
+- **Hot:** Armazenamento que os dados são acessados com frequência.
+- **Cool:** Dados acessados com pouca frequência por pelo menos 30 dias.
 
+**4. Banco de dados:**
 
+Banco de dados é um serviço de nível PaaS (Plataforma como serviço) que trata da maioria das funções de gerenciamento de banco de dados. Existem os BD relacionais e não relacionais.
+- Azure Cosmos DB: É um serviço não relacional, ou seja, funciona com base em Chave = Valor. Não é possível separar os dados por entidades.
+- Banco de dados SQL do Azure, BD Azure para MYSQL e BD do Azure para PostgreSQL: São banco de dados relacionais, podendo ser separados por tabelas como é feito no MYSQL.
 
+## Módulo 3: Principais soluções
+
+**Análise dados com IA e Machine Learning:**
+
+A Microsoft oferece uma certificação própria para inteligência artificial chamada AI - 900 que aborda conceitos de Inteligência Artificial e Machine Learning (Aprendizado de máquinas). O uso dessas tecnologias permite análise de dados conforme o serviço escolhido. 
+- Azure Machine Learning: baseado em nuvem para aprendizado de máquinas.
+- Serviços cognitivos: Inteligência artificiais para ver, ouvir, falar, entender e interpretas as necessidades do usuário.
+- Serviço bot do azure: Desenvolver bots inteligentes, de nível empresarial.
+
+**IoT:**
+
+A internet das coisas vem tomando cada vez mais espaço no ambiente de trabalho com o uso de aplicativos inteligentes como câmeras para monitor e analisar o desempenho de máquinas, pessoas, setores, etc.
+O Azure possui um HUB IoT que permite a comunicação e gerenciamento de dispositivos. 
+
+![image](https://user-images.githubusercontent.com/110680526/194397102-a59857ce-dff6-4b00-af62-293889491e8a.png)
+
+## Módulo 4: Segurança
+
+Uma das maiores características da plataforma é a segurança que possui e oferece. Desde a segurança física dos seus data centers até a de seus recursos virtuais.
+- **Central de segurança do Azure:** É um serviço de monitoramento que oferece proteção contra ameaças nos data centers do Azure. Esse serviço detecta e bloqueia malwares, analisa e identifica possíveis ataques ao seu ambiente de nuvem, fornece recomendações de segurança e controla o acesso em tempo real. 
+- **Azure Sentinel:** É uma solução de gerenciamento de informações e de respostas automatizada de segurança que fornece uma análise de segurança e inteligência contra ameaças em uma empresa. Ele faz uma análise do ambiente de nuvem e aprende com isso por meio de inteligência artificial.
+- **Azure Key Vault:** Esse serviço guarda credenciais, armazena segredos do aplicativo em um local de nuvem centralizado para controlar com segurança as permissões e o registro em log de acesso.
+- **Host dedicado do Azure:** Fornece servidores físicos que hospedam uma ou mais máquinas virtuais dedicadas à carga de trabalho de uma única organização. Ou seja, uma empresa compra um servidor físico do Azure e utiliza esse servidor sozinha na nuvem.
+- Na Microsoft existe um recurso de **segurança compartilhada**, ele divide, de acordo com cada serviço, o que a Microsoft fica responsável e o que não fica.
+- **Firewall do Azure:** É um serviço com estado e gerenciamento que concede/nega acesso ao servidor com base no endereço IP de origem, para proteger seus recursos de rede.
+- **Proteção contra DDoS do Azure:** Os ataques DDoS são aqueles que sobrecarregam e esgotam os recursos da rede. Esse ataque é feito por meio do envio de diversas requisições para determinado site e, assim que ele cai, hackers clonam e podem roubar os dados dos clientes.
