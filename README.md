@@ -1,4 +1,4 @@
-# Estudos certificação AZ-900
+# Anotações certificação AZ-900
 ![image](https://user-images.githubusercontent.com/110680526/194125011-655bc899-f84e-48d3-bb00-a329157ba7b2.png)
 
 ## Módulo 1: Conceitos de nuvem
@@ -47,6 +47,11 @@ Na nuvem os usuários pagam pelos recursos que utilizam. Os modelos de núvem p�
 
 ![image](https://user-images.githubusercontent.com/110680526/194134675-2eb508d3-5f88-49aa-8cf2-e5d0bf6d5795.png)
 
+### **Portal do Azure:**
+O portal do Azure é utilizado para gerenciamentos dos recursos e interações através da GUI (Graphical User Interface, Interface Gráfica do Usuário).
+
+![image](https://user-images.githubusercontent.com/110680526/194428408-885166db-b915-4bc2-a4fc-28ccfa6abd66.png)
+
 ### **Assinatura do Azure:**
 Para começar a utilizar o serviço do Azure é necessário possuir uma assinatura. Uma assinatura é uma unidade lógica de serviços do Azure vinculada a uma conta.
 Uma conta pode ter uma ou mais assinaturas; essas assinaturas podem possuir diferentes níveis de gerenciamento de acesso. Geralmente são feitas assinaturas diferentes para ambientes diferentes como departamentos, equipes, etc.
@@ -70,6 +75,7 @@ No Azure existem dois serviços que oferecem suporte a zonas de disponibilidade:
 O Azure oferece diversos recursos dentro da sua plataforma, entre eles: Criação de máquinas virtuais, banco de dados, armazenamento, entre outros.
 ### **Grupo de recursos:**
 O grupo de recursos reúne os recursos e agrupam aqueles que estão conectados. Por meio do grupo de recursos é possível definir configurações em comum entre os recursos presentes nele.
+
 ### **Azure Resource Manager:**
 Gerencia como os seus recursos serão alocados e criados. As solicitações para criar ou atualizar um recurso são feitas por meio desse recurso.
 
@@ -118,6 +124,9 @@ Banco de dados é um serviço de nível PaaS (Plataforma como serviço) que trat
 - Azure Cosmos DB: É um serviço não relacional, ou seja, funciona com base em Chave = Valor. Não é possível separar os dados por entidades.
 - Banco de dados SQL do Azure, BD Azure para MYSQL e BD do Azure para PostgreSQL: São banco de dados relacionais, podendo ser separados por tabelas como é feito no MYSQL.
 
+### **Azure PowerShell:**
+Também conhecido como Azure CLI, é a linha de comando de interações baseadas em automação com o Azure. Nessa CLI é possível acessar sua conta por meio do comando "Connect-AzAccount" e até gerenciar seus recursos por meio de linhas de condução. 
+
 ## Módulo 3: Principais soluções
 
 **Análise dados com IA e Machine Learning:**
@@ -136,7 +145,7 @@ O Azure possui um HUB IoT que permite a comunicação e gerenciamento de disposi
 
 ## Módulo 4: Segurança
 
-Uma das maiores características da plataforma é a segurança que possui e oferece. Desde a segurança física dos seus data centers até a de seus recursos virtuais.
+Uma das maiores características da plataforma é a segurança que possui e oferece. Desde a segurança física dos seus data centers até a de seus recursos virtuais. Com a plataforma do Azure a empresa não precisará se preocupar com atualizações de hardwares e atualizações de segurança para proteger os seus arquivos.
 - **Central de segurança do Azure:** É um serviço de monitoramento que oferece proteção contra ameaças nos data centers do Azure. Esse serviço detecta e bloqueia malwares, analisa e identifica possíveis ataques ao seu ambiente de nuvem, fornece recomendações de segurança e controla o acesso em tempo real. 
 - **Azure Sentinel:** É uma solução de gerenciamento de informações e de respostas automatizada de segurança que fornece uma análise de segurança e inteligência contra ameaças em uma empresa. Ele faz uma análise do ambiente de nuvem e aprende com isso por meio de inteligência artificial.
 - **Azure Key Vault:** Esse serviço guarda credenciais, armazena segredos do aplicativo em um local de nuvem centralizado para controlar com segurança as permissões e o registro em log de acesso.
@@ -144,3 +153,5 @@ Uma das maiores características da plataforma é a segurança que possui e ofer
 - Na Microsoft existe um recurso de **segurança compartilhada**, ele divide, de acordo com cada serviço, o que a Microsoft fica responsável e o que não fica.
 - **Firewall do Azure:** É um serviço com estado e gerenciamento que concede/nega acesso ao servidor com base no endereço IP de origem, para proteger seus recursos de rede.
 - **Proteção contra DDoS do Azure:** Os ataques DDoS são aqueles que sobrecarregam e esgotam os recursos da rede. Esse ataque é feito por meio do envio de diversas requisições para determinado site e, assim que ele cai, hackers clonam e podem roubar os dados dos clientes.
+
+## Módulo 5: Identidade, governança, privacidade e conformidade
