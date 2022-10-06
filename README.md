@@ -82,4 +82,35 @@ Na imagem abaixo as chaves são as assinaturas e os demais símbolos os grupos. 
 
 ![image](https://user-images.githubusercontent.com/110680526/194150428-35df02bc-7ef6-4c47-b042-5d160197beec.png)
 
+### **Principais serviços do Azure:**
+
+**1. Computação:**
+
+**Máquinas virtuais:**
+Máquinas virtuais são aplicações que permitem rodar um sistema operacional em cima de outro, ou seja, um "computador dentro do computador".
+No Azure é possível criar quantas máquinas virtuais forem necessárias com os mais diversos tipos de configuração. É possível escolher entre Linux e Windows.
+A plataforma garante: Maior controle do seu orçamento (pagará somente pelo tempo que usar), capacidade de expansão de um ambiente de uma a milhares de máquinas em minutos e criptografia de dados confidenciais.
+
+**Serviço de aplicativo:**
+Plataforma para gerenciar, criar, implantar e escalar aplicativos Web e API's com rapidez. Permite trabalhar com .NET, .NET Core, Node.js, Java, Python ou PHP.
+A plataforma garante: Serviço totalmente gerenciado com manutenção de infraestrutura, implantações sem tempo de inatividade, suporte para redes virtuais e padrões de segurança e conformidade rigorosos.
+
+**Serviços de contêiner:** No contêiner você trabalha como se fosse em uma VM, entretanto, o Sistema Operacional utilizado é o presente na máquina, não dando liberdade para escolher um Sistema Operacional diferente do que está presente no servidor. 
+A plataforma garante: Agilidade, portabilidade e escalabilidade rápida.
+
+![image](https://user-images.githubusercontent.com/110680526/194376940-8cc5ab80-50ae-408b-b9ca-9ffc2853eb5e.png)
+
+**2. Rede:**
+
+O gerenciamento de redes virtual do Azure um serviço que permite agrupar, configurar e implantar redes virtuais em assinaturas da plataforma. É possível definir grupos de rede para identificar e configurar suas redes virtuais.
+A plataforma garante: serviço altamente escalonável e disponível, baixa latência e alta largura de banca.
+
+**3. Armazenamento:**
+
+O serviço de armazenamento do Azure é uma solução de nuvem para armazenar dados modernos. Os dados salvos podem ser acessar por HTTP.
+O armazenamento de dados possui as camadas: Hot, Cool e Archive. 
+- Hot: Armazenamento que os dados são acessados com frequência.
+- Cool: Dados acessados com pouca frequência por pelo menos 30 dias.
+
+
 
