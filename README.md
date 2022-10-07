@@ -151,7 +151,40 @@ Uma das maiores características da plataforma é a segurança que possui e ofer
 - **Azure Key Vault:** Esse serviço guarda credenciais, armazena segredos do aplicativo em um local de nuvem centralizado para controlar com segurança as permissões e o registro em log de acesso.
 - **Host dedicado do Azure:** Fornece servidores físicos que hospedam uma ou mais máquinas virtuais dedicadas à carga de trabalho de uma única organização. Ou seja, uma empresa compra um servidor físico do Azure e utiliza esse servidor sozinha na nuvem.
 - Na Microsoft existe um recurso de **segurança compartilhada**, ele divide, de acordo com cada serviço, o que a Microsoft fica responsável e o que não fica.
-- **Firewall do Azure:** É um serviço com estado e gerenciamento que concede/nega acesso ao servidor com base no endereço IP de origem, para proteger seus recursos de rede.
+- **Firewall do Azure:** É um serviço com estado e gerenciamento que concede/nega acesso ao servidor com base no endereço IP de origem, para proteger seus recursos de rede. O Azure fornece proteção de entrada para protocolos HTTP/s e não HTTP como RDP, SSH e FTP.
 - **Proteção contra DDoS do Azure:** Os ataques DDoS são aqueles que sobrecarregam e esgotam os recursos da rede. Esse ataque é feito por meio do envio de diversas requisições para determinado site e, assim que ele cai, hackers clonam e podem roubar os dados dos clientes.
 
 ## Módulo 5: Identidade, governança, privacidade e conformidade
+
+**Azure Policy:**
+
+O Azure policy é utilizado para gerenciar e atribuir políticas e regras sobre os recursos como determinar que um recurso de VM só seja implementado com uma capacidade de X Gb no seu ambiente monitorado.
+
+**RBAC (Controle de acesso baseado em função do Azure):**
+
+O RBAC é um sistema de autorização que permite definir o nível de acesso a recursos, ambientes e as áreas de acesso. Essas permissões que os usuários tem podem ser de diversos níveis, entretanto, perante fins educacionais vale ressaltar os seguintes níveis de acesso: 
+- Proprietário: Pode ler, alterar e dar permissões;
+- Contribuinte: Pode ler e alterar;
+- Leitor: Pode ler.
+
+![image](https://user-images.githubusercontent.com/110680526/194441851-96961369-328f-4301-8baf-92eb2bd4bc28.png)
+
+**Diferença entre autenticação e autorização:**
+
+Embora pareçam semelhantes, autenticação e autorização não são a mesma coisa. Autenticação diz respeito a validação de um usuário (Login e senha por exemplo). Já a autorização refere-se as permissões, os níveis de acesso.
+
+
+**Autenticação multifator do Azure:**
+
+Esse recurso faz a autenticação duas vezes do acesso. Multifator pode ser exemplificado como o número de confirmação do Google quando fazemos um acesso em uma máquina diferente, logo após isso é enviado algum número para confirmação em seu celular a fim de aumentar a segurança nas senhas e cadastros.
+
+
+**Azure Active Directory:**
+
+É o serviço de gerenciamento de acesso e identidade na nuvem da plataforma. É nesse serviço que a autenticação e cadastro de usuários ocorre.
+
+
+**Recomendação: Cloud Adoption Framework:**
+
+Cloud Adoption Framework é um site da própria plataforma do Azure que mostra boas práticas para quem está iniciando no serviço de nuvem. (Url: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/).
+![image](https://user-images.githubusercontent.com/110680526/194444738-6320560d-2e7a-4dde-a4c0-fb3acbaee776.png)
