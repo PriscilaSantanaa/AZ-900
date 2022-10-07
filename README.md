@@ -1,7 +1,7 @@
 # Anotações certificação AZ-900
 
-<div align= "center">
-<img scr = "https://user-images.githubusercontent.com/110680526/194556386-6db362f6-5381-4d36-9a77-416b90ab5e3c.png" width="500px" />
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194557227-2e1ab0b4-a3dd-41fd-b93e-d85da218c2c5.png" width="300px" />
 </div>
 
 ## Módulo 1: Conceitos de nuvem
@@ -10,7 +10,9 @@
 Computação em nuvem é a entrega de serviços de computação por meio da internet. É uma forma de alugar capacidade computacional e armazenamento do datacenter de terceiros. O provedor de nuvem é responsável por manter a infraestrutura disponível para você.
 - Amazon foi a pioneira na computação em nuvem com o serviço da AWS.
 
-![image](https://user-images.githubusercontent.com/110680526/194125448-b11da58e-c1b5-4243-8999-cef507d9ba74.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194125448-b11da58e-c1b5-4243-8999-cef507d9ba74.png" width="250px" />
+</div>
 
 ### **Nuvem pública, híbrida e privada:**
 Existe uma diferença entre os serviços disponíveis na nuvem, esses serviços são divididos em: Serviços de nuvem pública, híbrida e privada.
@@ -22,9 +24,11 @@ Existe uma diferença entre os serviços disponíveis na nuvem, esses serviços 
 - **Escalabilidade:** Capacidade de aumentar ou diminuir os recursos automaticamente;
 - **Alcance global:** Pode-se acessar data centers no mundo inteiro, podendo alocar seus servidores em diversas regiões do planeta;
 
-![image](https://user-images.githubusercontent.com/110680526/194128696-ed528977-06c7-4f78-855e-3e16ee0e44b6.png)
-
-- **Agilidade:**
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194128696-ed528977-06c7-4f78-855e-3e16ee0e44b6.png" width="850px" />
+</div>
+ 
+- **Agilidade:** A agilidade na nuvem refere-se a facilidade e rapidez de criar novos recursos e instâncias
 - **Recuperação de desastre:** Caso pegue fogo em algum lugar ou ocorra algum desastre, você tem uma recuperação de desastre em algum outro ponto (caso configurado outro ponto do seu serviço), ou seja, existem Backup's em outros data center;
 - **Tolerância a falhas:** Diz respeito a quanto o ambiente pode ser acarretado por falhas e sobrevive mesmo com elas, o quanto ele é tolerante a falhas;
 - **Elasticidade:** É um dos maiores e mais conhecidos benefícios da nuvem. Elasticidade é quanto o recurso pode se moldar quanto a demanda. Um exemplo bem claro disso é na famosa black friday que a demanda/acessos sobem muito; com a nuvem os recursos acompanham a demanda;
@@ -36,7 +40,9 @@ Na nuvem existem dois modelos de despesa: CapEx (Capital Expenditure) e OpEx (Op
 - **CapEx:** Nesse modelo de despesa está incluso o investimento inicial em máquinas, equipamentos e outros bens nas instalações na empresa. É o modelo presente na nuvem privada.
 - **OpEx:** No modelo OpEx os gastos são feitos conforme o necessário, ou seja, é feito pagamento conforme o uso do serviço. É o modelo presente na nuvem pública.
 
-![image](https://user-images.githubusercontent.com/110680526/194131746-87742188-df1a-49d7-af7e-bbe23d5c5c28.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194131746-87742188-df1a-49d7-af7e-bbe23d5c5c28.png" width="500px" />
+</div>
 
 ### **Modelo baseado em consumo:**
 Na nuvem os usuários pagam pelos recursos que utilizam. Os modelos de núvem pública são basicamente divididos em três: IaaS, PaaS e SaaS.
@@ -48,18 +54,24 @@ Na nuvem os usuários pagam pelos recursos que utilizam. Os modelos de núvem p�
 ### **O que é o Azure?**
 "Azure é um conjunto de serviços de nuvem em constante expansão, que ajuda a sua organização a superar os desafios empresariais e atuais e se preparar para os desafios futuros. No portal do Azure é possível acessar e utilizar as suas ferramentas; é possível compilar, gerenciar e monitorar tudo."
 
-![image](https://user-images.githubusercontent.com/110680526/194134675-2eb508d3-5f88-49aa-8cf2-e5d0bf6d5795.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194134675-2eb508d3-5f88-49aa-8cf2-e5d0bf6d5795.png" width="500px" />
+</div>
 
 ### **Portal do Azure:**
 O portal do Azure é utilizado para gerenciamentos dos recursos e interações através da GUI (Graphical User Interface, Interface Gráfica do Usuário).
 
-![image](https://user-images.githubusercontent.com/110680526/194428408-885166db-b915-4bc2-a4fc-28ccfa6abd66.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194428408-885166db-b915-4bc2-a4fc-28ccfa6abd66.png" width="760px" />
+</div>
 
 ### **Assinatura do Azure:**
 Para começar a utilizar o serviço do Azure é necessário possuir uma assinatura. Uma assinatura é uma unidade lógica de serviços do Azure vinculada a uma conta.
 Uma conta pode ter uma ou mais assinaturas; essas assinaturas podem possuir diferentes níveis de gerenciamento de acesso. Geralmente são feitas assinaturas diferentes para ambientes diferentes como departamentos, equipes, etc.
 
-![image](https://user-images.githubusercontent.com/110680526/194135305-7191ba42-4158-4ce6-8472-af4332eb18f9.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194135305-7191ba42-4158-4ce6-8472-af4332eb18f9.png" width="760px" />
+</div>
 
 ### **Regiões:**
 A Microsoft está espalhada em vários lugares do mundo. Para cada região, existe um par de regiões que é feito para replicar os dados (esses pares ficam no mínimo 300 milhas de distância). Região é uma área do planeta que contém pelo menos um data center (normalmente são vários) e conectados em rede com uma baixa latência. O Azure tem mais regiões globais do que qualquer outro provedor de nuvem. 
@@ -72,24 +84,31 @@ No Azure existem dois serviços que oferecem suporte a zonas de disponibilidade:
 - **Serviços zonais:** Nesse serviço você escolhe somente uma zona específica para colocar seu recurso.
 - **Serviços com redundância de zona:** Nesse serviço a plataforma replica automaticamente os recursos entre as zonas.
 
-![image](https://user-images.githubusercontent.com/110680526/194145147-ee909f86-6956-46b0-8136-cac7752611df.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194145147-ee909f86-6956-46b0-8136-cac7752611df.png" width="450px" />
+</div>
 
 ### **Recursos do Azure:**
 O Azure oferece diversos recursos dentro da sua plataforma, entre eles: Criação de máquinas virtuais, banco de dados, armazenamento, entre outros.
-### **Grupo de recursos:**
+
+- **Grupo de recursos:**
 O grupo de recursos reúne os recursos e agrupam aqueles que estão conectados. Por meio do grupo de recursos é possível definir configurações em comum entre os recursos presentes nele.
 
-### **Azure Resource Manager:**
+- **Azure Resource Manager:**
 Gerencia como os seus recursos serão alocados e criados. As solicitações para criar ou atualizar um recurso são feitas por meio desse recurso.
 
-![image](https://user-images.githubusercontent.com/110680526/194149632-bbbf0354-63b1-4f5e-ac9f-e548a7a1660b.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194149632-bbbf0354-63b1-4f5e-ac9f-e548a7a1660b.png" width="600px" />
+</div>
 
-### **Grupos de gerenciamento:** 
+- **Grupos de gerenciamento:** 
 O grupo de gerenciamento permite que você gerencie assinaturas, permitindo inclusive atribuir permissõoes para os recursos.
 
 Na imagem abaixo as chaves são as assinaturas e os demais símbolos os grupos. É possível notar que as assinaturas e grupos são divididos pelos departamentos da empresa que provavelmente possuem permissões diferentes.
 
-![image](https://user-images.githubusercontent.com/110680526/194150428-35df02bc-7ef6-4c47-b042-5d160197beec.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194150428-35df02bc-7ef6-4c47-b042-5d160197beec.png" width="800px" />
+</div>
 
 ### **Principais serviços do Azure:**
 
@@ -107,7 +126,9 @@ A plataforma garante: Serviço totalmente gerenciado com manutenção de infraes
 **Serviços de contêiner:** No contêiner você trabalha como se fosse em uma VM, entretanto, o Sistema Operacional utilizado é o presente na máquina, não dando liberdade para escolher um Sistema Operacional diferente do que está presente no servidor. 
 A plataforma garante: Agilidade, portabilidade e escalabilidade rápida.
 
-![image](https://user-images.githubusercontent.com/110680526/194376940-8cc5ab80-50ae-408b-b9ca-9ffc2853eb5e.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194376940-8cc5ab80-50ae-408b-b9ca-9ffc2853eb5e.png" width="800px" />
+</div>
 
 **2. Rede:**
 
@@ -144,7 +165,9 @@ A Microsoft oferece uma certificação própria para inteligência artificial ch
 A internet das coisas vem tomando cada vez mais espaço no ambiente de trabalho com o uso de aplicativos inteligentes como câmeras para monitor e analisar o desempenho de máquinas, pessoas, setores, etc.
 O Azure possui um HUB IoT que permite a comunicação e gerenciamento de dispositivos. 
 
-![image](https://user-images.githubusercontent.com/110680526/194397102-a59857ce-dff6-4b00-af62-293889491e8a.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194397102-a59857ce-dff6-4b00-af62-293889491e8a.png" width="600px" />
+</div>
 
 ## Módulo 4: Segurança
 
@@ -157,7 +180,9 @@ Uma das maiores características da plataforma é a segurança que possui e ofer
 - **Firewall do Azure:** É um serviço com estado e gerenciamento que concede/nega acesso ao servidor com base no endereço IP de origem, para proteger seus recursos de rede. O Azure fornece proteção de entrada para protocolos HTTP/s e não HTTP como RDP, SSH e FTP.
 - **Proteção contra DDoS do Azure:** Os ataques DDoS são aqueles que sobrecarregam e esgotam os recursos da rede. Esse ataque é feito por meio do envio de diversas requisições para determinado site e, assim que ele cai, hackers clonam e podem roubar os dados dos clientes.
 
-![image](https://user-images.githubusercontent.com/110680526/194451977-0c6a3ed7-e695-4ada-af8e-04a49e4888e0.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194451977-0c6a3ed7-e695-4ada-af8e-04a49e4888e0.png" width="600px" />
+</div>
 
 ## Módulo 5: Identidade, governança, privacidade e conformidade
 
@@ -172,7 +197,9 @@ O RBAC é um sistema de autorização que permite definir o nível de acesso a r
 - Contribuinte: Pode ler e alterar;
 - Leitor: Pode ler.
 
-![image](https://user-images.githubusercontent.com/110680526/194441851-96961369-328f-4301-8baf-92eb2bd4bc28.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194441851-96961369-328f-4301-8baf-92eb2bd4bc28.png" width="600px" />
+</div>
 
 **Diferença entre autenticação e autorização:**
 
@@ -189,7 +216,10 @@ Esse recurso faz a autenticação duas vezes do acesso. Multifator pode ser exem
 **Recomendação: Cloud Adoption Framework:**
 
 Cloud Adoption Framework é um site da própria plataforma do Azure que mostra boas práticas para quem está iniciando no serviço de nuvem. (Url: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/).
-![image](https://user-images.githubusercontent.com/110680526/194444738-6320560d-2e7a-4dde-a4c0-fb3acbaee776.png)
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194444738-6320560d-2e7a-4dde-a4c0-fb3acbaee776.png" width="720px" />
+</div>
 
 **Segurança, Privacidade e Conformidade:**
 
@@ -207,16 +237,22 @@ Cloud Adoption Framework é um site da própria plataforma do Azure que mostra b
 5) **Instâncias reservadas:** Com as reservadas do Azure você consegue descontos com o Azure por pagar pelo tempo de 3 anos sem ter utilizado ainda;
 6) **Benefício de uso híbrido do Azure:** No Azure você pode importar sua licença de uma máquina para a nuvem.
 
-![image](https://user-images.githubusercontent.com/110680526/194454804-029b0160-19fa-4577-9001-7f8a1ec8461b.png)
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194454804-029b0160-19fa-4577-9001-7f8a1ec8461b.png" width="720px" />
+</div>
 
 **Ferramentas para ajudar no seu orçamento:**
 
 **- Calculadora de preços:** É uma ferramenta que ajuda a estimar o preço a ser pago selecionando os recursos do Azure que pretende usar, com suas configurações.
 
-![image](https://user-images.githubusercontent.com/110680526/194456410-2c16490a-8a5a-4b8a-81d0-7e371b31e39f.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194456410-2c16490a-8a5a-4b8a-81d0-7e371b31e39f.png" width="620px" />
+</div>
 
 
 **- Calculadora de TCO:** É uma ferramenta que permite estimar a economia de custos com o uso do Azure. Esse relatório gerado compara o preço das infraestruturas normais para a nuvem.
 
-![image](https://user-images.githubusercontent.com/110680526/194456544-85c83c90-b5a7-4a88-80a0-af8c482ea8b3.png)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/110680526/194456544-85c83c90-b5a7-4a88-80a0-af8c482ea8b3.png" width="620px" />
+</div>
+
