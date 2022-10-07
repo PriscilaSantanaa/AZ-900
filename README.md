@@ -203,7 +203,9 @@ O RBAC é um sistema de autorização que permite definir o nível de acesso a r
 
 **Diferença entre autenticação e autorização:**
 
-Embora pareçam semelhantes, autenticação e autorização não são a mesma coisa. Autenticação diz respeito a validação de um usuário (Login e senha por exemplo). Já a autorização refere-se as permissões, os níveis de acesso.
+Embora pareçam semelhantes, autenticação e autorização não são a mesma coisa. 
+A autenticação garante que a combinação entre o nome do usuário e a senha esteja correta (Ela permite que certificados sejam utilizados para identificar pessoas e serviços, uma vez que eles possuem uma chave anexada que identifica a pessoa ou serviço). Já a autorização garante que uma conta tenha permissões suficientes para acessar determinado recurso, ela determina o nível de acesso concedido a uma pessoa ou serviço (A autorização não usa senhas para identificar uma pessoa, somente a autenticação).
+
 
 **Autenticação multifator do Azure:**
 
