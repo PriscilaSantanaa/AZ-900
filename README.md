@@ -142,6 +142,8 @@ O armazenamento de dados possui as camadas: Hot, Cool e Archive.
 - **Hot:** Armazenamento que os dados são acessados com frequência.
 - **Cool:** Dados acessados com pouca frequência por pelo menos 30 dias.
 
+- **Standard general-purpose v2:** Também conhecidas como contas de armazenamento, standard general-purpose refere-se a soluções de armazenamento que dão suporte a serviços como Blob, Queue e Table storage.
+
 **4. Banco de dados:**
 
 Banco de dados é um serviço de nível PaaS (Plataforma como serviço) que trata da maioria das funções de gerenciamento de banco de dados. Existem os BD relacionais e não relacionais.
@@ -201,6 +203,26 @@ O RBAC é um sistema de autorização que permite definir o nível de acesso a r
 <img src="https://user-images.githubusercontent.com/110680526/194441851-96961369-328f-4301-8baf-92eb2bd4bc28.png" width="600px" />
 </div>
 
+**Bloqueio de recursos:**
+
+O bloqueio de recursos protege os recursos do Azure de exclusão ou alguma modificação acidental. Nele é possível gerenciar os níveis de assinatura, grupos de recursos ou recursos individuais no portal do Azure.
+
+**Marcas (TAG's):** As tags consistem em um par nome-valor que auxiliam a identificar recursos. 
+Esses rótulos contribuem no rateio correto de uso dos recursos.
+Como utiliza o sistema chave-valor as tags ficam parecidas com:
+
+<div align="center">
+ 
+Centro de custo - TI
+ 
+Projeto - TCB - 2022 - V2
+ 
+Departamento - Recursos Humanos
+ 
+Ambiente - Homologação
+ 
+</div>
+
 **Diferença entre autenticação e autorização:**
 
 Embora pareçam semelhantes, autenticação e autorização não são a mesma coisa. 
@@ -214,6 +236,19 @@ Esse recurso faz a autenticação duas vezes do acesso. Multifator pode ser exem
 **Azure Active Directory:**
 
 É o serviço de gerenciamento de acesso e identidade na nuvem da plataforma. É nesse serviço que a autenticação e cadastro de usuários ocorre.
+- **Acesso condicional:** O acesso condicional é utilizado pelo Azure Active Directory para reunir sinais, tomar decisões e impor políticas organizacionais para concluir uma ação. Por exemplo: um gerente de folha de pagamento deseja acessar o aplicativo de folha de pagamento e deve fazer uma autenticação multifator para acessá-lo.
+
+<div align="center">
+<img src="https://learn.microsoft.com/pt-br/azure/active-directory/conditional-access/media/overview/conditional-access-signal-decision-enforcement.png" width="720px" />
+</div>
+
+**Azure Policy:** 
+
+Azure Policy é um recurso que ajuda a impor padrões organizacionais por meio do portal do Azure. Esses padrões podem ser bloquear a criação de uma VM em determinada região pois a empresa não presta mais serviços para essa área.
+
+**Azure Blueprints:** 
+
+O Azure Blueprints possibilita que equipes de desenvolvimento criem e implantem novos ambientes com facilidade. Ele permite que um ambiente que já existe (Com RBAC para os usuários, políticas, templates de recursos e grupos de recursos) seja copiado e replicado ou copiado em outra conta do Azure. 
 
 **Recomendação: Cloud Adoption Framework:**
 
@@ -229,6 +264,8 @@ Cloud Adoption Framework é um site da própria plataforma do Azure que mostra b
 - Privacidade: Garante a privacidade das organizações por meio de acordos contratuais e fornecendo controle e transparência ao usuário.
 - Conformidade: Respeito as legislações.
 
+**Integridade de serviço:** 
+
 ## **Módulo 6: Preço e ciclo de vida do Azure:**
 
 **Fatores que afetam os custos:**
@@ -239,10 +276,6 @@ Cloud Adoption Framework é um site da própria plataforma do Azure que mostra b
 5) **Instâncias reservadas:** Com as reservadas do Azure você consegue descontos com o Azure por pagar pelo tempo de 3 anos sem ter utilizado ainda;
 6) **Benefício de uso híbrido do Azure:** No Azure você pode importar sua licença de uma máquina para a nuvem.
 
-<div align="center">
-<img src="https://user-images.githubusercontent.com/110680526/194454804-029b0160-19fa-4577-9001-7f8a1ec8461b.png" width="720px" />
-</div>
-
 **Ferramentas para ajudar no seu orçamento:**
 
 **- Calculadora de preços:** É uma ferramenta que ajuda a estimar o preço a ser pago selecionando os recursos do Azure que pretende usar, com suas configurações.
@@ -250,7 +283,6 @@ Cloud Adoption Framework é um site da própria plataforma do Azure que mostra b
 <div align="center">
 <img src="https://user-images.githubusercontent.com/110680526/194456410-2c16490a-8a5a-4b8a-81d0-7e371b31e39f.png" width="620px" />
 </div>
-
 
 **- Calculadora de TCO:** É uma ferramenta que permite estimar a economia de custos com o uso do Azure. Esse relatório gerado compara o preço das infraestruturas normais para a nuvem.
 
