@@ -154,6 +154,8 @@ Uma das maiores características da plataforma é a segurança que possui e ofer
 - **Firewall do Azure:** É um serviço com estado e gerenciamento que concede/nega acesso ao servidor com base no endereço IP de origem, para proteger seus recursos de rede. O Azure fornece proteção de entrada para protocolos HTTP/s e não HTTP como RDP, SSH e FTP.
 - **Proteção contra DDoS do Azure:** Os ataques DDoS são aqueles que sobrecarregam e esgotam os recursos da rede. Esse ataque é feito por meio do envio de diversas requisições para determinado site e, assim que ele cai, hackers clonam e podem roubar os dados dos clientes.
 
+![image](https://user-images.githubusercontent.com/110680526/194451977-0c6a3ed7-e695-4ada-af8e-04a49e4888e0.png)
+
 ## Módulo 5: Identidade, governança, privacidade e conformidade
 
 **Azure Policy:**
@@ -173,18 +175,45 @@ O RBAC é um sistema de autorização que permite definir o nível de acesso a r
 
 Embora pareçam semelhantes, autenticação e autorização não são a mesma coisa. Autenticação diz respeito a validação de um usuário (Login e senha por exemplo). Já a autorização refere-se as permissões, os níveis de acesso.
 
-
 **Autenticação multifator do Azure:**
 
 Esse recurso faz a autenticação duas vezes do acesso. Multifator pode ser exemplificado como o número de confirmação do Google quando fazemos um acesso em uma máquina diferente, logo após isso é enviado algum número para confirmação em seu celular a fim de aumentar a segurança nas senhas e cadastros.
-
 
 **Azure Active Directory:**
 
 É o serviço de gerenciamento de acesso e identidade na nuvem da plataforma. É nesse serviço que a autenticação e cadastro de usuários ocorre.
 
-
 **Recomendação: Cloud Adoption Framework:**
 
 Cloud Adoption Framework é um site da própria plataforma do Azure que mostra boas práticas para quem está iniciando no serviço de nuvem. (Url: https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/).
 ![image](https://user-images.githubusercontent.com/110680526/194444738-6320560d-2e7a-4dde-a4c0-fb3acbaee776.png)
+
+**Segurança, Privacidade e Conformidade:**
+
+- Segurança: Microsoft protege contra as ameaças.
+- Privacidade: Garante a privacidade das organizações por meio de acordos contratuais e fornecendo controle e transparência ao usuário.
+- Conformidade: Respeito as legislações.
+
+## **Módulo 6: Preço e ciclo de vida do Azure:**
+
+**Fatores que afetam os custos:**
+1) **Tipo de recurso:** Os custos são específicos do recurso, uma VM tem um custo, um servidor tem outra, um Hub cobra pelas mensagens enviadas, etc;
+2) **Serviços:** Existem diversos níveis de clientes, cada um deles é taxado de uma maneira diferente;
+3) **Localização:** O local que você instalará seu serviço tem seu próprio preço;
+4) **Largura de banda:**  Alguns recursos do Azure permitem a transferência de dados de forma gratuita, entretanto, quando for cobrado, será em base na zona;
+5) **Instâncias reservadas:** Com as reservadas do Azure você consegue descontos com o Azure por pagar pelo tempo de 3 anos sem ter utilizado ainda;
+6) **Benefício de uso híbrido do Azure:** No Azure você pode importar sua licença de uma máquina para a nuvem.
+
+![image](https://user-images.githubusercontent.com/110680526/194454804-029b0160-19fa-4577-9001-7f8a1ec8461b.png)
+
+
+**Ferramentas para ajudar no seu orçamento:**
+
+**- Calculadora de preços:** É uma ferramenta que ajuda a estimar o preço a ser pago selecionando os recursos do Azure que pretende usar, com suas configurações.
+
+![image](https://user-images.githubusercontent.com/110680526/194456410-2c16490a-8a5a-4b8a-81d0-7e371b31e39f.png)
+
+
+**- Calculadora de TCO:** É uma ferramenta que permite estimar a economia de custos com o uso do Azure. Esse relatório gerado compara o preço das infraestruturas normais para a nuvem.
+
+![image](https://user-images.githubusercontent.com/110680526/194456544-85c83c90-b5a7-4a88-80a0-af8c482ea8b3.png)
