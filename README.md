@@ -1,5 +1,8 @@
 # Anotações certificação AZ-900
-![image](https://user-images.githubusercontent.com/110680526/194125011-655bc899-f84e-48d3-bb00-a329157ba7b2.png)
+
+<div align= "center">
+<img scr = "https://user-images.githubusercontent.com/110680526/194556386-6db362f6-5381-4d36-9a77-416b90ab5e3c.png" width="500px" />
+</div>
 
 ## Módulo 1: Conceitos de nuvem
 
