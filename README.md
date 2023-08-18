@@ -290,3 +290,8 @@ Cloud Adoption Framework é um site da própria plataforma do Azure que mostra b
 <img src="https://user-images.githubusercontent.com/110680526/194456544-85c83c90-b5a7-4a88-80a0-af8c482ea8b3.png" width="620px" />
 </div>
 
+**- Gerenciamento de custos do Azure:** Definir quanto você pretende gastar, método de pagamento e tempo. É possível definir um alerta caso algum orçamento ou previsão feita pelo cliente seja ultrapassada.
+
+<div align="center">
+<img scr="https://learn.microsoft.com/pt-br/azure/cost-management-billing/understand/media/plan-manage-costs/cost-analysis.png width="620px" />
+</div>
